@@ -1,0 +1,13 @@
+/* Global Style*/
+
+body {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
