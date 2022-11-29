@@ -13,16 +13,23 @@
         <title>Document</title>
     </head>
     <body>
-        <h1 class="heading">
-            <img src="logo" alt="logo" src="">
+
         </h1>
         <div class="game-area">
-            <button id="scissors">Scissors <i class="fa fa-hand-scissors-o"></i></button>
-            <button id="rock">Rock <i class="fa fa-hand-rock-o"></i></button>
-            <button id="paper">Paper <i class="fa fa-hand-paper-o"></i></button>
+            <div class="contorls-area">
+            <button id="scissors" class="btn btn__big btn--green">
+                <i class="fa fa-hand-scissors-o"></i>
+            </button>
+            <button id="rock" class="btn btn__big btn--red">
+                <i class="fa fa-hand-rock-o"></i>
+            </button>
+            <button id="paper" class="btn btn__big btn--blue">
+                <i class="fa fa-hand-paper-o"></i>
+            </button>
         </div>
         <div id="first-choice">Choose yours!</div>
         <div id="second-choice">Show your choice</div>
+    </div>
 
         <div class="winner-area">
             <p class="winner">You Win! <span id="you-win">0</span></p>
